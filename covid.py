@@ -13,7 +13,7 @@ def wget(url):
         f.write(r.content)
 
 wget = 'https://covid.ourworldindata.org/data/ecdc/full_data.csv'
-archivo = pd.read_cvs("full_data.csv")
+archivo = pd.read_csv('full_data.csv')
 
 def obtener_paises():
 
